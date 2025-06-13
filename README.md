@@ -16,17 +16,6 @@ This smart recommendation system helps users find new anime to watch based on ge
 - 🌐 Clean and responsive UI for easy interaction
 
 ---
-
-## 🛠 Tech Stack
-
-| Component       | Technology              |
-|-----------------|--------------------------|
-| Frontend        | HTML, CSS, JavaScript     |
-| Backend         | Python (Flask or Django)  |
-| ML Libraries    | pandas, numpy, scikit-learn |
-| Dataset         | Anime Dataset from Kaggle / MyAnimeList |
-| Hosting (optional) | Render / Railway / Localhost |
-
 ---
 🚀 How to Run the Project
 
