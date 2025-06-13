@@ -28,8 +28,52 @@ This smart recommendation system helps users find new anime to watch based on ge
 | Hosting (optional) | Render / Railway / Localhost |
 
 ---
+🚀 How to Run the Project
 
-## 🚀 Getting Started
+1. 🔧 Clone the Repository
+
+git clone https://github.com/rahulp00/AnimeXfind.git
+cd AnimeXfind
+
+2. 🐍 Set Up Python Environment
+
+If you don't have Jupyter installed:
+pip install notebook
+Also install other required packages:
+pip install pandas numpy scikit-learn
+
+3. 📓 Launch Jupyter Notebook
+
+jupyter notebook
+Open the file anime.ipynb from the notebook interface.
+
+📌 Important Notes
+.pkl files must be present in the data/ folder. These contain precomputed cosine similarity matrices:
+  desc_cosine_sim.pkl – Based on anime descriptions
+  tag_cosine_sim.pkl – Based on genre/tags
+  hybrid_cosine_sim.pkl – Combined similarity
+anime_cleaned.csv should also be in data/ folder. This is the cleaned version of the raw dataset.
+
+   
+🧼 Dataset Cleaning Steps (Quick Summary)
+The original anime dataset was cleaned as follows:
+
+  Removed null or missing titles, genres, and descriptions.
+
+  Converted all text to lowercase.
+
+  Removed special characters and stopwords.
+
+  Tokenized descriptions for vectorization.
+
+🔮 Features in anime.ipynb
+
+  Search anime by name and get similar recommendations.
+
+  Switch between description-based, tag-based, and hybrid similarity models.
+
+  Easy-to-use interface using Python functions and cosine similarity.
+
 
 ### Requirements
 
